@@ -1,0 +1,22 @@
+{
+  "name": "base-dao",
+  "version": "1.0.0",
+  "description": "DAO para acesso de postgreSQL",
+  "main": "BaseDAO.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natanungethuem/BaseDAO.git"
+  },
+  "keywords": [
+    "DAO"
+  ],
+  "author": "Natan Bueno Ungethuem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natanungethuem/BaseDAO/issues"
+  },
+  "homepage": "https://github.com/natanungethuem/BaseDAO#readme"
+}
