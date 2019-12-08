@@ -52,3 +52,14 @@ export default class BaseDAO {
         return this;
     }
 }
+
+export class DAOUtils {
+    static deleteAllBut(obj, list) {
+        Object.keys(obj).forEach((key) => {
+            // eslint-disable-next-line no-param-reassign
+            if (!list || !list.includes(key)) delete obj[key];
+        });
+
+        return obj;
+    }
+}
